@@ -2,6 +2,7 @@ package com.andrecarvalho.projeto.services;
 
 import java.util.List;
 import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
@@ -10,14 +11,18 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
 import com.andrecarvalho.projeto.domain.Cidade;
 import com.andrecarvalho.projeto.domain.Cliente;
 import com.andrecarvalho.projeto.domain.Endereco;
+import com.andrecarvalho.projeto.domain.enums.Perfil;
 import com.andrecarvalho.projeto.domain.enums.TipoCliente;
 import com.andrecarvalho.projeto.dto.ClienteDTO;
 import com.andrecarvalho.projeto.dto.ClienteNewDTO;
 import com.andrecarvalho.projeto.repositories.ClienteRepository;
 import com.andrecarvalho.projeto.repositories.EnderecoRepository;
+import com.andrecarvalho.projeto.security.UserSS;
+import com.andrecarvalho.projeto.services.exceptions.AuthorizationException;
 import com.andrecarvalho.projeto.services.exceptions.DataIntegrityException;
 import com.andrecarvalho.projeto.services.exceptions.ObjectNotFoundException;
 
@@ -34,6 +39,10 @@ public class ClienteService {
 	private BCryptPasswordEncoder pe;
 
 	public Cliente find(Integer id) {
+		UserSS user = UserService.authenticated();
+		if(user == null || !user.hasRole(Perfil.ADMIN) && !id.equals(user.getIde())) {
+			throw new AuthorizationException("Acesso negado");
+		}
 		 Optional<Cliente> obj = repo.findById(id);
 		return obj.orElseThrow(() -> new ObjectNotFoundException(
 		 "Objeto não encontrado! Id: " + id + ", Tipo: " + Cliente.class.getName()));
