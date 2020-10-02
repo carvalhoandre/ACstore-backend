@@ -23,12 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c33c70d-874a-4f34-be20-a46f46d8605a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andrecarvalho/projeto/config/S3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/andrecarvalho/projeto/services/S3Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andrecarvalho/projeto/AplicationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andrecarvalho/projeto/AplicationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.andrecarvalho/aplication/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.andrecarvalho/aplication/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.andrecarvalho/aplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.andrecarvalho/aplication/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.andrecarvalho/aplication/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.andrecarvalho/aplication/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,14 +56,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1g8dfWlSOTkbzuASj7EBhnZE0LJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projeto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
@@ -107,6 +112,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1597502261805">
       <screen x="0" y="0" width="1536" height="864" />
@@ -140,6 +148,10 @@
     </state>
     <state width="1493" height="575" key="GridCell.Tab.0.right/0.0.1536.864/-1360.138.1360.768@0.0.1536.864" timestamp="1600293199751" />
     <state width="1493" height="575" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1597504162003" />
+    <state x="349" y="167" key="IDE.errors.dialog" timestamp="1601678436560">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="167" key="IDE.errors.dialog/0.0.1536.864/-1360.138.1360.768@0.0.1536.864" timestamp="1601678436560" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1600290070837">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
