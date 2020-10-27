@@ -10,7 +10,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.andrecarvalho.projeto.domain.enums.Perfil;
 
-public class UserSS implements UserDetails{
+
+public class UserSS implements UserDetails {
 	private static final long serialVersionUID = 1L;
 	
 	private Integer id;
@@ -18,7 +19,8 @@ public class UserSS implements UserDetails{
 	private String senha;
 	private Collection<? extends GrantedAuthority> authorities;
 	
-	public UserSS() {}
+	public UserSS() {
+	}
 	
 	public UserSS(Integer id, String email, String senha, Set<Perfil> perfis) {
 		super();
@@ -28,25 +30,22 @@ public class UserSS implements UserDetails{
 		this.authorities = perfis.stream().map(x -> new SimpleGrantedAuthority(x.getDescricao())).collect(Collectors.toList());
 	}
 
-	public Integer getIde() {
+	public Integer getId() {
 		return id;
 	}
-
+	
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
-		// TODO Auto-generated method stub
 		return authorities;
 	}
 
 	@Override
 	public String getPassword() {
-		// TODO Auto-generated method stub
 		return senha;
 	}
 
 	@Override
 	public String getUsername() {
-		// TODO Auto-generated method stub
 		return email;
 	}
 
@@ -73,5 +72,4 @@ public class UserSS implements UserDetails{
 	public boolean hasRole(Perfil perfil) {
 		return getAuthorities().contains(new SimpleGrantedAuthority(perfil.getDescricao()));
 	}
-
 }
