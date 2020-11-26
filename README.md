@@ -1,9 +1,8 @@
-# Curso Java 11
+# Store backend
+###
 
-*front End*
+[Projeto full stack completo! Java Spring Boot no back end e Ionic no front end. Do design UML ao Heroku e Play Store!](https://www.udemy.com/course/spring-boot-ionic/)
 
-Projeto loja virtual, site; aplicativo.
+API Rest usando Java11 com Spring Boot e banco de dados MySQL. JPA com Hibernate para mapeamento objeto-relacional, envio de email com SMTP da Google, armazenamento de imagens com storage S3 da Amazon, autenticação e autorização com tokens JWT, e implantação na nuvem usando a plataforma Heroku.Validação de dados, tratamento de exceções, uso adequado do protocolo HTTP no padrão REST, segurança, CORS.
 
-_Spring Boot, Hibernate, REST, Ionic, JWT, S3, MySQL, MongoDB._
-
-Udemy; Professor Nélio Alves
+[Professor Nelio Alves](https://www.udemy.com/user/nelio-alves/)
