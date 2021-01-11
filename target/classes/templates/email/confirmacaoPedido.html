@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<title th:remove="all">Order Confirmation</title>
+<title th:remove="all">Store - Confirmação de Pedido!</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
 	<div>
+		<h1> 
+			Nós do time Store agradecemos pela preferência!
+		</h1>
+	</div>
+	<div>
+		<p>
+			Dados do seu novo pededido:
+		</p>
 		<h1>
-			Pedido número: <span th:text="${pedido.id}"> </span>
+			Número: <span th:text="${pedido.id}"> </span>
 		</h1>
 		<p>
 			Instante: <span
 				th:text="${#dates.format(pedido.instante, 'dd/MM/yyyy hh:mm')}"></span>
 		</p>
 		<p>
-			Cliente: <span th:text="${pedido.cliente.nome}"></span>
+			Seus dados: <span th:text="${pedido.cliente.nome}"></span>
 		</p>
 		<p>
 			Situação do pagamento: <span
@@ -44,6 +52,11 @@
 				th:text="${#numbers.formatDecimal(pedido.valorTotal, 0,
 'POINT', 2, 'COMMA')}"></span>
 		</p>
+	</div>
+	<div>
+		<h1>
+			Equipe Store
+		</h1>
 	</div>
 </body>
 </html>
