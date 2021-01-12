@@ -18,6 +18,9 @@ _Aplicativo em desenvolvimento atráves do curso Java 11; API Rest_
 - Segurança 
 - CORS
 
-[Front-End](https://github.com/carvalhoandre/store-frontend) _em desenvolvimento_
+[Front-End](https://github.com/carvalhoandre/store-frontend) 
+
+## Desenvolvendo melhorias:
+- Lombock 
 
 [Professor Nelio Alves](https://www.udemy.com/user/nelio-alves/)
