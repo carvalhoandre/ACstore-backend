@@ -1,4 +1,5 @@
 # Store backend :convenience_store:
+[Front-End](https://github.com/carvalhoandre/store-frontend) 
 
 _Aplicativo em desenvolvimento atráves do curso Java 11; API Rest_
 
@@ -18,6 +19,8 @@ _Aplicativo em desenvolvimento atráves do curso Java 11; API Rest_
 - Segurança 
 - CORS
 
-[Front-End](https://github.com/carvalhoandre/store-frontend) _em desenvolvimento_
+## Desenvolvendo melhorias:
+- [ ] Lombock 
 
-[Professor Nelio Alves](https://www.udemy.com/user/nelio-alves/)
+#
+_Referência: [Professor Nelio Alves](https://www.udemy.com/user/nelio-alves/)_
