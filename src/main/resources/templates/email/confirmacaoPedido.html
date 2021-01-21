@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<title th:remove="all">Store - Confirmação de Pedido!</title>
+<title th:remove="all">AC Store - Confirmação de Pedido!</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
 	<div>
-		<h1> 
+		<h1>AC Store - Confirmação de pedido!</h1>
+		<p> 
 			Nós do time Store agradecemos pela preferência!
-		</h1>
+		</p>
 	</div>
 	<div>
 		<p>
 			Dados do seu novo pededido:
 		</p>
-		<h1>
+		<h2>
 			Número: <span th:text="${pedido.id}"> </span>
-		</h1>
+		</h2>
 		<p>
 			Instante: <span
 				th:text="${#dates.format(pedido.instante, 'dd/MM/yyyy hh:mm')}"></span>
@@ -47,16 +48,22 @@
 'COMMA')}">subTotal</td>
 			</tr>
 		</table>
-		<p>
+		<h2>
 			Valor total: <span
 				th:text="${#numbers.formatDecimal(pedido.valorTotal, 0,
 'POINT', 2, 'COMMA')}"></span>
-		</p>
+		</h2>
 	</div>
 	<div>
-		<h1>
-			Equipe Store
-		</h1>
+		<h3>
+			Com carinho Equipe AC Store
+		</h3>
+		
+		<img 
+		    src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/adaptive-icon.png" 
+		    width="150" 
+		    align="left" 
+		    alt="Logo_andre">
 	</div>
 </body>
 </html>
