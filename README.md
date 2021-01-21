@@ -3,7 +3,7 @@
 
 _Aplicativo em desenvolvimento atráves do curso Java 11; API Rest_
 
-## Utilizado:
+## Utilizado
 - Spring Boot 
 - Banco de dados MySQL
 - JPA com Hibernate para mapeamento objeto-relacional 
@@ -19,7 +19,7 @@ _Aplicativo em desenvolvimento atráves do curso Java 11; API Rest_
 - Segurança 
 - CORS
 
-## Desenvolvendo melhorias:
+## Desenvolvendo melhorias
 - [ ] Lombock 
 
 #
