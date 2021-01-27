@@ -1,9 +1,12 @@
 # Store backend :convenience_store:
-[Front-End](https://github.com/carvalhoandre/store-frontend) 
 
 _Aplicativo em desenvolvimento atráves do curso Java 11; API Rest_
 
-## Utilizado:
+[Documentação - Swagger](https://sad-store.herokuapp.com/swagger-ui.html)
+
+[Front-End](https://github.com/carvalhoandre/store-frontend) 
+
+## Utilizado
 - Spring Boot 
 - Banco de dados MySQL
 - JPA com Hibernate para mapeamento objeto-relacional 
@@ -19,7 +22,7 @@ _Aplicativo em desenvolvimento atráves do curso Java 11; API Rest_
 - Segurança 
 - CORS
 
-## Desenvolvendo melhorias:
+## Desenvolvendo melhorias
 - [ ] Lombock 
 
 #
