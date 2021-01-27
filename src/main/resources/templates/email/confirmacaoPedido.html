@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<title th:remove="all">AC Store - Confirmação de Pedido!</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="André" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title th:remove="all">AC Store - Confirmação de Pedido!</title>
+	<link rel="icon" type="images/x-icon" href="https://carvalhoandre.s3-sa-east-1.amazonaws.com/adaptive-icon.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
 </head>
-<body>
+<body style="background-color: ivory; font-family: Arial, Helvetica, sans-serif;">
 	<div>
-		<h1>AC Store - Confirmação de pedido!</h1>
+		<h1 style="color: black; font-size: 40px;">AC Store</h1>
 		<p> 
-			Nós do time Store agradecemos pela preferência!
+			<strong>Olá <span th:text="${pedido.cliente.nome}"></span></strong>
+		</p>
+		<p>
+			<strong>Seu pagamento está em analise</strong>
+			<span th:text="${pedido.pagamento.estado.descricao}"></span>
 		</p>
 	</div>
 	<div>
-		<p>
-			Dados do seu novo pededido:
+		<p style="color: black;">
+			Número do pedido:
+			<strong  style="color: lightseagreen;"><span th:text="${pedido.id}"> </span></strong>
 		</p>
-		<h2>
-			Número: <span th:text="${pedido.id}"> </span>
-		</h2>
+		<p style="color: black;">
+			<strong  style="color: lightseagreen;">Pedido recebido</strong>
+			Status do pagamento
+			Enviado ao transportador
+			Pedido entregue
+		</p>
+		
+		<h4 style="color: darkorchid;">É importante saber</h4>
+		
+		<p>
+			Este pedido contém um produto vendido e entregue por Anunciantes locais parceiro da AC Store.
+			Acompanhamos seu pedido até você para garantimos total suporte
+		</p>
+		
+		<h4 style="color: darkorchid;"> Resumo do pedido</h4>
+		
 		<p>
 			Instante: <span
 				th:text="${#dates.format(pedido.instante, 'dd/MM/yyyy hh:mm')}"></span>
 		</p>
-		<p>
-			Seus dados: <span th:text="${pedido.cliente.nome}"></span>
-		</p>
-		<p>
-			Situação do pagamento: <span
-				th:text="${pedido.pagamento.estado.descricao}"></span>
-		</p>
-		<h3>Detalhes do pedido:</h3>
 		<table border="1">
 			<tr>
 				<th>Produto</th>
@@ -48,16 +68,20 @@
 'COMMA')}">subTotal</td>
 			</tr>
 		</table>
-		<h2>
+		<h4 style="color: darkorchid;">
 			Valor total: <span
 				th:text="${#numbers.formatDecimal(pedido.valorTotal, 0,
 'POINT', 2, 'COMMA')}"></span>
-		</h2>
+		</h4>
+		<div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://www.linkedin.com/in/andr%C3%A9-leite-carvalho-b77721146/"><i class="fab fa-linkedin"></i></a>
+                    <a class="mx-2" href="https://github.com/carvalhoandre/NinjaStar"><i class="fab fa-github"></i></a>
+       	</div>
 	</div>
 	<div>
-		<h3>
+		<p>
 			Com carinho Equipe AC Store
-		</h3>
+		</p>
 		
 		<img 
 		    src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/adaptive-icon.png" 
