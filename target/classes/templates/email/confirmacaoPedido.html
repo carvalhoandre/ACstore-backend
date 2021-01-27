@@ -2,21 +2,37 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 	<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="André" content="" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title th:remove="all">AC Store - Confirmação de Pedido!</title>
+	<title th:remove="all">AC Store - Confirmação do seu pedido</title>
 	<link rel="icon" type="images/x-icon" href="https://carvalhoandre.s3-sa-east-1.amazonaws.com/adaptive-icon.png" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+     <style>
+        body{
+            background-color:skyblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        h1 {
+            color: black;
+            text-align: center;
+            font-size: 40px
+        }
+        
+        h4{
+        	color: darkorchid;
+        	text-align: center;
+            font-size: 20px
+        
+        }
+
+
+        p{
+            text-align: justify;
+        }
+    </style>
 </head>
 <body style="background-color: ivory; font-family: Arial, Helvetica, sans-serif;">
 	<div>
-		<h1 style="color: black; font-size: 40px;">AC Store</h1>
+		<h1>AC Store</h1>
 		<p> 
 			<strong>Olá <span th:text="${pedido.cliente.nome}"></span></strong>
 		</p>
@@ -36,15 +52,16 @@
 			Enviado ao transportador
 			Pedido entregue
 		</p>
+	</div>
 		
-		<h4 style="color: darkorchid;">É importante saber</h4>
+		<h4>É importante saber</h4>
 		
 		<p>
 			Este pedido contém um produto vendido e entregue por Anunciantes locais parceiro da AC Store.
 			Acompanhamos seu pedido até você para garantimos total suporte
 		</p>
 		
-		<h4 style="color: darkorchid;"> Resumo do pedido</h4>
+		<h4> Resumo do pedido</h4>
 		
 		<p>
 			Instante: <span
@@ -68,16 +85,25 @@
 'COMMA')}">subTotal</td>
 			</tr>
 		</table>
-		<h4 style="color: darkorchid;">
+		<h4>
 			Valor total: <span
 				th:text="${#numbers.formatDecimal(pedido.valorTotal, 0,
 'POINT', 2, 'COMMA')}"></span>
 		</h4>
-		<div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://www.linkedin.com/in/andr%C3%A9-leite-carvalho-b77721146/"><i class="fab fa-linkedin"></i></a>
-                    <a class="mx-2" href="https://github.com/carvalhoandre/NinjaStar"><i class="fab fa-github"></i></a>
-       	</div>
-	</div>
+		
+		<div>
+			<p align="right"><em>Para projetos, troca de conhecimentos, parcerias: </em>:arrow_down:</p>
+		
+			<a href="mailto:andre_carvalho0@live.com?Subject=Olá André" target="_blank" rel="external"><img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/email_open_24px.png" min-width="25px" max-width="25px" width="25px" align="right" alt="e-mail"></a>
+
+			<a href="https://www.facebook.com/AndreCarvalho0" target="_blank" rel="external"><img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/facebook_26px.png" min-width="25px" max-width="25px" width="25px" align="right" alt="facebook"></a>
+    
+			<a href="https://www.linkedin.com/in/andr%C3%A9-leite-carvalho-b77721146/" target="_blank" rel="external"><img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/linkedin_32px.png" min-width="25px" max-width="25px" width="25px" align="right" alt="linkedin"></a>
+
+			<img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/discord.png" min-width="30px" max-width="30px" width="30px" align="right">
+		
+			<p  align="right"><em>#3010</em></p>
+		</div>
 	<div>
 		<p>
 			Com carinho Equipe AC Store
