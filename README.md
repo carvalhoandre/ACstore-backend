@@ -1,14 +1,4 @@
-<img scr="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/banner.png" align="center">
-
-
-<img 
-    src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/adaptive-icon.png"
-    min-width="250"
-    max-width="250"
-    width="250"
-    align="right" 
-    alt="Logo_andre">
-
+<img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/banner.png" align="center">
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
