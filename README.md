@@ -36,7 +36,7 @@
   <p>:link:<a href="https://spring.io/tools" target="_blank" rel="external">Spring Tools 4</a></p>
   
   <h2>:rocket: Rodar a aplicação/testes</h2>
-  <p>Clone repositório
+  <p>Clone repositório</p>
 
 </a>
 
@@ -60,7 +60,7 @@ $ git clone <https://github.com/carvalhoandre/store-backend>
 ### :blush: Autor
 ---
 <img 
-    src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/Capturar.PNG"
+    src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/perfil.png"
     style="border-radius: 50%" 
     min-width="125"
     max-width="125"
