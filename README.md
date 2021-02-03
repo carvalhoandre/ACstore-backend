@@ -1,30 +1,24 @@
 <img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/banner.png" align="center">
-<p align="center"><em>Back End desenvolvido para [Aplicativo](https://github.com/carvalhoandre/store-frontend) básico de compras<em></p>
+<p align="center"><em>Back End desenvolvido para <a href="https://github.com/carvalhoandre/store-frontend" target="_blank" rel="external">Aplicativo</a> básico de compras<em></p>
 
 <p align="center">
- •<a href="#Status do projeto">Status do projeto</a> 
  •<a href="#recursos">Recursos</a>
   •<a href="#documentação">Documentação</a>
  •<a href="#requisitos">Pré-requisitos e como rodar a aplicação/testes</a>
  •<a href="#tecnologias">Tecnologias utilizadas</a> 
 </p>
 
-<a name="Status do projeto">
-  <p align="center"> 
-    :construction:  AC Store :convenience_store:	 Em construção...  :construction:
-  </p>
-</a>
+<h2 align="center"> :construction:  AC Store :convenience_store:	 Em construção...  :construction:</h2>
 
 <a name="recursos">
   <h2>Recursos</h2>
-      <p>:ballot_box_with_check: Mapeamento Objeto relacional</p>
       <p>:ballot_box_with_check: Uso de objetos DTO visando segurança e otimização</p>
       <p>:ballot_box_with_check: Validação de dados</p>
       <p>:ballot_box_with_check: Tratamento de exceções</p> 
       <p>:ballot_box_with_check: Uso adequado do protocolo HTTP no padrão REST</p> 
-      <p>:ballot_box_with_check: Segurança JWT Security para Token criptografia e uso CORS</p>
+      <p>:ballot_box_with_check: CORS</p>
       <p>:ballot_box_with_check: Gerenciamento de dependências MAVEN</p>
-      <p>:ballot_box_with_check:JPA com Hibernate para mapeamento objeto-relacional</p> 
+      <p>:ballot_box_with_check: JPA com Hibernate para mapeamento objeto-relacional</p> 
       <p>:ballot_box_with_check: Envio de email com SMTP da Google</p>
       <p>:ballot_box_with_check: Armazenamento de imagens com storage S3 da Amazon</p> 
       <p>:ballot_box_with_check: Autenticação e autorização com tokens JWT</p>
