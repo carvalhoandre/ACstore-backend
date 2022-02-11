@@ -25,3 +25,12 @@ hs_err_pid*
 target/classes/application.properties
 target/classes/META-INF/maven/com.andrecarvalho/aplication/pom.properties
 
+src/main/resources/application-prod.properties
+*.properties
+*.properties
+target/classes/application-dev.properties
+target/classes/application-prod.properties
+*.properties
+target/classes/application-dev.properties
+*.properties
+*.properties

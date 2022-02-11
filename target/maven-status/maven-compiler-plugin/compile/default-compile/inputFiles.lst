@@ -1,35 +1,82 @@
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\AplicationApplication.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\ItemPedidoPK.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\enums\EstadoPagamento.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\ClienteRepository.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\Produto.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\services\CategoriaService.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\PagamentoComCartao.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\PagamentoRepository.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\resources\exception\StandardError.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\ItemPedidoRepository.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\services\exceptions\DataIntegrityException.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\PedidoRepository.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\Estado.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\CidadeRepository.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\resources\CategoriaResource.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\ProdutoRepository.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\resources\PedidoResource.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\PagamentoComBoleto.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\Categoria.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\dto\CategoriaDTO.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\resources\ClienteResource.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\Cidade.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\ItemPedido.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\services\exceptions\ObjectNotFoundException.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\Pedido.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\EnderecoRepository.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\resources\exception\ResourceExceptionHandler.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\services\PedidoService.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\enums\TipoCliente.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\Cliente.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\Endereco.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\EstadoRepository.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\domain\Pagamento.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\services\ClienteService.java
-D:\andre\Documents\Git Hub\projeto\aplication\src\main\java\com\andrecarvalho\projeto\repositories\CategoriaRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\dto\CredenciaisDTO.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\CidadeRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\EnderecoRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\ProdutoRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\AuthResource.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\utils\URL.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\MockEmailService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\PedidoResource.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\AuthService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\ProdutoResource.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\security\JWTAuthorizationFilter.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\UserDetailsServiceImpl.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\dto\ClienteDTO.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\ImageService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\validation\ClienteInsert.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\enums\EstadoPagamento.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\Pedido.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\exception\ResourceExceptionHandler.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\AbstractEmailService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\ItemPedido.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\PagamentoRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\security\JWTUtil.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\EmailService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\EstadoService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\exceptions\AuthorizationException.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\dto\CidadeDTO.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\dto\CategoriaDTO.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\config\DevConfig.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\enums\Perfil.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\dto\ProdutoDTO.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\ItemPedidoRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\EstadoRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\security\UserSS.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\exceptions\FileException.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\Produto.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\PagamentoComCartao.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\filters\HeaderExposureFilter.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\config\SwaggerConfig.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\exception\ValidationError.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\security\JWTAuthenticationFilter.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\config\ProdConfig.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\S3Service.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\PagamentoComBoleto.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\CategoriaResource.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\exception\FieldMessage.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\AplicationApplication.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\Cliente.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\UserService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\Pagamento.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\ItemPedidoPK.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\EstadoResource.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\config\SecurityConfig.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\PedidoService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\PedidoRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\SmtpEmailService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\validation\utils\BR.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\config\S3Config.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\ProdutoService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\DBService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\dto\ClienteNewDTO.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\Categoria.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\ClienteService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\Endereco.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\BoletoService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\CidadeService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\exceptions\DataIntegrityException.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\CategoriaRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\validation\ClienteUpdateValidator.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\enums\TipoCliente.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\dto\EmailDTO.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\ClienteResource.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\exceptions\ObjectNotFoundException.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\validation\ClienteInsertValidator.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\repositories\ClienteRepository.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\validation\ClienteUpdate.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\config\JacksonConfig.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\services\CategoriaService.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\Cidade.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\resources\exception\StandardError.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\config\TestConfig.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\dto\EstadoDTO.java
+D:\Users\andre\Documents\GitHub\ACstore-backend\src\main\java\com\andrecarvalho\projeto\domain\Estado.java
