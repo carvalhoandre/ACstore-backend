@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8" />
+	<title th:remove="all">AC Store - Confirmação do seu pedido</title>
+	<link rel="icon" type="images/x-icon" href="https://carvalhoandre.s3-sa-east-1.amazonaws.com/adaptive-icon.png" />
+     <style>
+        body{
+            background-color:skyblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        h1 {
+            color: black;
+            text-align: center;
+            font-size: 40px
+        }
+        
+        h4{
+        	color: darkorchid;
+        	text-align: center;
+            font-size: 20px
+        
+        }
+
+
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body style="background-color: ivory; font-family: Arial, Helvetica, sans-serif;">
+	<div>
+		<h1>AC Store</h1>
+		<p> 
+			<strong>Olá <span th:text="${pedido.cliente.nome}"></span></strong>
+		</p>
+		<p>
+			<strong>Seu pagamento está em analise</strong>
+			<span th:text="${pedido.pagamento.estado.descricao}"></span>
+		</p>
+	</div>
+	<div>
+		<p style="color: black;">
+			Número do pedido:
+			<strong  style="color: lightseagreen;"><span th:text="${pedido.id}"> </span></strong>
+		</p>
+		<p style="color: black;">
+			<strong  style="color: lightseagreen;">Pedido recebido</strong>
+			Status do pagamento
+			Enviado ao transportador
+			Pedido entregue
+		</p>
+	</div>
+		
+		<h4>É importante saber</h4>
+		
+		<p>
+			Este pedido contém um produto vendido e entregue por Anunciantes locais parceiro da AC Store.
+			Acompanhamos seu pedido até você para garantimos total suporte
+		</p>
+		
+		<h4> Resumo do pedido</h4>
+		
+		<p>
+			Instante: <span
+				th:text="${#dates.format(pedido.instante, 'dd/MM/yyyy hh:mm')}"></span>
+		</p>
+		<table border="1">
+			<tr>
+				<th>Produto</th>
+				<th>Quantidade</th>
+				<th>Preço unitário</th>
+				<th>Subtotal</th>
+			</tr>
+			<tr th:each="item : ${pedido.itens}">
+				<td th:text="${item.produto.nome}">nome</td>
+				<td th:text="${item.quantidade}">quantidade</td>
+				<td
+					th:text="${#numbers.formatDecimal(item.preco, 0, 'POINT', 2,
+'COMMA')}">preco</td>
+				<td
+					th:text="${#numbers.formatDecimal(item.subTotal, 0, 'POINT', 2,
+'COMMA')}">subTotal</td>
+			</tr>
+		</table>
+		<h4>
+			Valor total: <span
+				th:text="${#numbers.formatDecimal(pedido.valorTotal, 0,
+'POINT', 2, 'COMMA')}"></span>
+		</h4>
+		
+		<div>
+			<p align="right"><em>Para projetos, troca de conhecimentos, parcerias: </em>:arrow_down:</p>
+		
+			<a href="mailto:andre_carvalho0@live.com?Subject=Olá André" target="_blank" rel="external"><img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/email_open_24px.png" min-width="25px" max-width="25px" width="25px" align="right" alt="e-mail"></a>
+
+			<a href="https://www.facebook.com/AndreCarvalho0" target="_blank" rel="external"><img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/facebook_26px.png" min-width="25px" max-width="25px" width="25px" align="right" alt="facebook"></a>
+    
+			<a href="https://www.linkedin.com/in/andr%C3%A9-leite-carvalho-b77721146/" target="_blank" rel="external"><img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/linkedin_32px.png" min-width="25px" max-width="25px" width="25px" align="right" alt="linkedin"></a>
+
+			<img src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/github/discord.png" min-width="30px" max-width="30px" width="30px" align="right">
+		
+			<p  align="right"><em>#3010</em></p>
+		</div>
+	<div>
+		<p>
+			Com carinho Equipe AC Store
+		</p>
+		
+		<img 
+		    src="https://carvalhoandre.s3-sa-east-1.amazonaws.com/adaptive-icon.png" 
+		    width="150" 
+		    align="left" 
+		    alt="Logo_andre">
+	</div>
+</body>
+</html>
