@@ -26,6 +26,7 @@ public class Produto implements Serializable {
 	private Integer Id;
 	private String nome;
 	private Double preco;
+	private String descricao;
 	
 	@JsonIgnore
 	@ManyToMany
@@ -41,11 +42,12 @@ public class Produto implements Serializable {
 	
 	public Produto() {}
 
-	public Produto(Integer id, String nome, Double preco) {
+	public Produto(Integer id, String nome, Double preco, String descricao) {
 		super();
 		Id = id;
 		this.nome = nome;
 		this.preco = preco;
+		this.descricao = descricao;
 	}
 	
 	@JsonIgnore
@@ -79,6 +81,14 @@ public class Produto implements Serializable {
 
 	public void setPreco(Double preco) {
 		this.preco = preco;
+	}
+	
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 
 	public List<Categoria> getCategorias() {
